@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Change Calculator</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+   <!--section title and classes -->
+    
+        <header>
+            <h1>Change Calculator!</h1>
+            
+            
+        </header>
+        <br>
+
+       
+       <div>
+      <table>
+       
+        <tr>
+            
+                <td>How much is due for the sale?</td>
+            
+            <td>How much has the customer given you?</td>
+            </tr>
+            <tr>
+            <td>
+              <input type="text" name="howMuchdue" id="howMuchdue">  
+            </td>
+            <td>
+           <input type="text" id="cusGive" name="cusGive">
+           </td>
+            
+        </tr>
+       
+        </table>
+        </div>
+    
+
+       <div class="chMoney">
+       <table>
+       <tr>
+       <td>Dollars</td>
+    
+       <td>Quarters</td>
+
+       <td>Dimes</td>
+
+       <td>Nickels</td>
+
+       <td>Pennies</td>
+       </tr>
+       <tr>
+
+        <td>
+        <p id="dollars"></p>
+        <IMG SRC="mpics/dollar.gif" ALT="some text">
+        </td>
+        <td>
+        <p id="quarters"></p>
+        <IMG SRC="mpics/washington-quarter.png" ALT="some text" WIDTH=42 HEIGHT=42>
+        </td>
+        <td>
+        <p id="dimes"></p>
+        <IMG SRC="mpics/dime.jpg" ALT="some text" WIDTH=52 HEIGHT=52>
+        </td>
+        <td>
+        <p id="nickels"></p>
+        <IMG SRC="mpics/nickel.jpg" ALT="some text" WIDTH=42 HEIGHT=42>
+    
+        </td>
+       <td>
+        <p id="pennies"></p>
+        <IMG SRC="mpics/penny.jpg" ALT="some text" WIDTH=52 HEIGHT=52>
+        </td>
+        </tr>
+        
+</table>
+</div>
+
+<section>
+        <button type="button" id="yourBtn">Calculate Change</button>
+        </section>
+
+        <br>
+
+
+    <!--script file read-->
+    <script src="index.js"></script>
+</body>
+
+</html>
+

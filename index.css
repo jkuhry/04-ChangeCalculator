@@ -1,0 +1,82 @@
+body {
+   margin: auto;
+
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+
+
+
+div {
+  margin-left: 10px;
+  padding: 10px;
+  
+
+
+
+
+}
+
+tr {
+  text-align: center;
+  background: lightgray;
+  font-size: x-large;
+
+
+}
+
+
+td {
+  padding-right: 40px;
+  width: 10%;
+
+
+}
+
+button {
+  align-items: center;
+  padding-right: 30px;
+  background: blue;
+  border: solid;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: larger;
+ margin: 10px 450px 10px 460px;
+
+
+}
+
+section {
+	text-align: center;
+}
+
+
+
+.chMoney {
+    text-align: center;
+    margin-left: 60px;
+    margin: auto;
+    width: 90%;
+    font-size: xx-large;
+
+    
+
+
+
+}
+
+ 
+
+	
+
+
+
+
+
+
+
